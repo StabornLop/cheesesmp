@@ -1,123 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- Primary Meta Tags -->
-        <title>CHEESESMP</title>
-        <meta name="title" content="CHEESESMP" />
-        <meta
-            name="description"
-            content="Looking for a fun and feature-packed SMP?You've found the perfect server! Whether you're a grinder, PvPer, builder, or team leader, CHEESE SMP offers an exciting survival experience filled with custom features, endless progression, and a friendly community."
-        />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- Open Graph / Facebook -->
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="COMMING SOON" />
-        <meta property="og:title" content="CHEESESMP" />
-        <meta
-            property="og:description"
-            content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam sem fringilla ut morbi. Urna duis convallis convallis tellus id interdum velit."
-        />
+    <title>CHEESESMP</title>
 
-        <!-- Twitter -->
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="COMMING SOON" />
-        <meta property="twitter:title" content="CHEESESMP" />
-        <meta
-            property="twitter:description"
-            content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam sem fringilla ut morbi. Urna duis convallis convallis tellus id interdum velit."
-        />
-        <meta name="theme-color" content="#ffad32" />
-        <link rel="stylesheet" href="style.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap"
-            rel="stylesheet"
-        />
-    </head>
-    <body>
-        <main>
-            <section class="hero">
-                <h1>
-                    <span class="sr-only">CHEESESMP</span
-                    ><img
-                        src="images/logo.png"
-                        alt="cheesesmp"
-                        class="logo_pulse"
-                    />
-                </h1>
-            </section>
-            <section class="container">
-                <button onclick="copyToClipboard()" class="online-players">
-                    Join another
-                    <strong><span id="player-count">14</span></strong> players
-                    playing!
-                </button>
-            </section>
-            <section class="vote-links container">
-                <a href="https://discord.gg/xraAeWQNJC" target="_blank">
-                    <img
-                        src="images/icons/discord.svg"
-                        alt=""
-                        class="icon"
-                    />Discord</a
-                >
-                <a href="" target="_blank">
-                    <img src="images/icons/vote.svg" alt="" class="icon" />
-                    Vote</a
-                >
-                <a href="store.html" target="_blank"
-                    ><img
-                        src="images/icons/store.svg"
-                        alt=""
-                        class="icon"
-                    />Store</a
-                >
-            </section>
-        </main>
-        <footer>
-            <div class="container">
-                <div class="footer-info">
-                    <p>
-                        &copy; 2026 CHEESESMP. All rights reserved. <br />
-                        <a href="">Privacy Policy</a> |
-                        <a href="">Terms of Service</a>
-                    </p>
-                </div>
+    <meta name="title" content="CHEESESMP">
+    <meta name="description"
+        content="Looking for a fun and feature-packed SMP? You've found the perfect server! Whether you're a grinder, PvPer, builder, or team leader, CHEESE SMP offers an exciting survival experience filled with custom features, endless progression, and a friendly community.">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cheesesmp.fun">
+    <meta property="og:title" content="CHEESESMP">
+    <meta property="og:description"
+        content="Join CHEESESMP for an exciting Minecraft survival experience with custom features, economy, fishing, bosses, and more!">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://cheesesmp.fun">
+    <meta property="twitter:title" content="CHEESESMP">
+    <meta property="twitter:description"
+        content="Join CHEESESMP for an exciting Minecraft survival experience with custom features, economy, fishing, bosses, and more!">
+
+    <meta name="theme-color" content="#ffad32">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <main>
+        <section class="hero">
+            <h1>
+                <span class="sr-only">CHEESESMP</span>
+                <img
+                    src="images/logo.png"
+                    alt="CHEESESMP Logo"
+                    class="logo_pulse">
+            </h1>
+        </section>
+
+        <section class="container">
+            <button type="button" onclick="copyToClipboard()" class="online-players">
+                Join another
+                <strong><span id="player-count">Loading...</span></strong>
+                players online!
+            </button>
+        </section>
+
+        <section class="vote-links container">
+
+            <a href="https://discord.gg/xraAeWQNJC"
+               target="_blank"
+               rel="noopener noreferrer">
+                <img
+                    src="images/icons/discord.svg"
+                    alt="Discord"
+                    class="icon">
+                Discord
+            </a>
+
+            <a href="https://minecraft-mp.com"
+               target="_blank"
+               rel="noopener noreferrer">
+                <img
+                    src="images/icons/vote.svg"
+                    alt="Vote"
+                    class="icon">
+                Vote
+            </a>
+
+            <a href="https://store.cheesesmp.fun"
+               target="_blank"
+               rel="noopener noreferrer">
+                <img
+                    src="images/icons/store.svg"
+                    alt="Store"
+                    class="icon">
+                Store
+            </a>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-info">
+                <p>
+                    &copy; 2026 CHEESESMP. All rights reserved.
+                    <br>
+
+                    <a href="privacy.html">Privacy Policy</a> |
+                    <a href="terms.html">Terms of Service</a>
+                </p>
             </div>
-        </footer>
-        <script>
-            // Replace 'your-server-ip' with the actual IP or server address
-            const serverIP = "cheesesmp.fun";
+        </div>
+    </footer>
 
-            function copyToClipboard() {
-                const textarea = document.createElement("textarea");
-                textarea.value = serverIP;
-                document.body.appendChild(textarea);
-                textarea.select();
-                document.execCommand("copy");
-                document.body.removeChild(textarea);
+    <script>
+        const serverIP = "cheesesmp.fun";
+
+        async function copyToClipboard() {
+            try {
+                await navigator.clipboard.writeText(serverIP);
+                alert(`Server IP copied: ${serverIP}`);
+            } catch (err) {
+                console.error("Failed to copy:", err);
             }
+        }
 
-            // Function to update the player count
-            function updatePlayerCount() {
-                fetch(`https://api.mcsrvstat.us/2/${serverIP}`)
-                    .then((response) => response.json())
-                    .then((data) => {
-                        const playerCount = data.players.online;
-                        document.getElementById("player-count").textContent =
-                            playerCount;
-                    })
-                    .catch((error) => {
-                        console.error("Error fetching player count:", error);
-                    });
+        async function updatePlayerCount() {
+            try {
+                const response = await fetch(
+                    `https://api.mcsrvstat.us/2/${serverIP}`
+                );
+
+                const data = await response.json();
+
+                const count =
+                    data.players?.online ??
+                    0;
+
+                document.getElementById("player-count").textContent =
+                    count;
+
+            } catch (error) {
+                console.error("Error fetching player count:", error);
+
+                document.getElementById("player-count").textContent =
+                    "Offline";
             }
+        }
 
-            updatePlayerCount();
-            setInterval(updatePlayerCount, 60000);
-        </script>
-    </body>
+        updatePlayerCount();
+        setInterval(updatePlayerCount, 60000);
+    </script>
+
+</body>
 </html>
